@@ -1,0 +1,38 @@
+record_id,2. What hacks were required to make these packages work for NHP data?
+1,"Additional pre-processing, still figuring this out"
+2,Manual brain extraction correction. For awake data - slice-by-slice non-linear correction for dynamic distortions of the field.
+3,Extensive tweaking of FSL and ANTS parameters to achieve appropriate registrations
+4,"We made a segmentation pipeline that mixes various software to achieve a proper segmentation.   Some essentials from this pipeline are:  - segmentation is registration based, so it needs an atals with tissue priors.  - field of view must be cropped fin order to guarantee good registration."
+5,na
+6,a) Resolution in the header of the images   b) Brain extration  c) Dura and brain segmentation  d) Bias field correction  e) Atlas registration for volume and surface  f) Segmentation of subcortical structures   g) Other steps for avoid the manual correction
+7,N/A
+8,What hacks were required to make these packages work for NHP data?
+9,"1. Manually skull stripping and correction of the segmentation.    2. fake the size of NHP image data to avoid losing the resolution for FreeSurfer pipeline.  3. Create the gender-, site-specific template to facilitate the preprocessing steps for multi-site data.  4. Iteratively re-run some of the preprocessing steps to improve the performance."
+10,a) Resolution in the header of the images   b) Brain extraction  c) Duramater and brain segmentation  d) Bias field correction  e) Atlas registration for volume and surface  f) Segmentation of subcortical structures   g) Other steps for avoiding the manual correction
+11,Surface reconstruction in FS: mostly a lot of manual editing and some different steps (e.g. using FSL's bet for brain extraction instead of/in conjunction with FreeSurfer's skullstrip).
+12,"Since common software packages are tailored towards the human brain it is necessary to use/create   specific NHP volumetric templates and surface models. Existing methods for brain extraction do not work out of the box and need to be adapted to provide reliable results for NHP. Typically, manual segmentation of cortex and subcortical structures was required, especially when no NHP-specific template was available."
+13,NA
+14,N/A
+15,Mostly getting the right atlases. Various registration adjustments.
+16,Bash scripts or jupyter notebooks to combine the existing functions.
+17,I used the SPMMouse toolbox
+18,Manual skull-stripping. Some small alterations to AFNI commands.
+19,We do all from scratch -even starting from raw k-space data.
+20,using a pipeline that is suitable for specific analysis
+21,Bypassing using individual T1(MPRAGE or MDEFT) for segmentation and instead use of a morphed atlas (surrogate brain) for segmentation.
+22,"sphinx correction, resolution spoofing, adjustment of parameters for brain extraction, adjustment of standard HRF for monkey BOLD/MION HRFs"
+23,Matlab based routines for data preprocessing (from Hauke Kolster) and data processing (MrCat from Mars' lab)
+24,reprogramming the bounding box of the old spm normalization for NHP data and writing a program to manually interfere with non-linear co-registration through Matlab.
+25,NA
+26,N/A
+27,Some freesurfer hacks that we are happy to share.
+28,some freesurfer hacks (we can share)
+29,too many to describe
+30,NA
+31,10X enlargment of voxel sixe in nifti header. Pathway New templates. All the rest is pretty standard  (*Please note this applies to rodents - feel free to scrap this from the answer pool if not applicable*)
+32,"Skullstripped masks are rarely correct when run with the original automated script, and usually need manual editing, or creation, to be useable in either registration or analyses.   Similarly, tissue segmentation tends to fail, particularly in early visual cortices and the anterior temporal lobes, due to differences in tissue contrast compared to human data.   Finally, many registration steps require non-standard input parameters to work with the macaque brain."
+33,"For event-related analysis, adjusting the standard human HRF to a much faster function, with the time to peak 3 s (see https://groups.google.com/forum/#!topic/nhp-mri/N99Ti8B9RdA).     Some DICOM header hacking was needed to adjust to the monkey sphinx orientation: e.g. https://github.com/dagdpz/bv_dag/blob/master/helper_functions/get_sSliceArray_asSlice_sPosition.m"
+34,manual editing of brain masks
+35,"> Built in brain mask tools generally fail (e.g. 3dSkullStrip -macaque).  Must replace auto-generated masks with monkey specific masks in various AFNI commands.  >  EPI scans must be kept or rejected based on the quality of monkey's behavior and movement.  > Alternatives:  warp NMT's brain mask to the individual (followed by possible refinement using Atropos) or drawing a manual mask.  > In AFNI, most options and tools that are designated 'subject' need to be interpreted as scan session in the case of NHPs that are scanned more than once,  > In AFNI, afni_proc.py requires some hacks to allow for modeling baseline on a per run basis but motion parameters on a per day basis (using -set_run_lengths) based on how many TRs occur in each session."
+36,"No hacks. We (the Van Essen and Hayashi labs in collaboration) use MRI sequences and pipelines in the NHP HCP protocol (Autio et al., BioRxiv 2019)."
+37,N.A.

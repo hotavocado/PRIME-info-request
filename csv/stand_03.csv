@@ -1,0 +1,38 @@
+record_id,"3. Are you using MION or other iron-based contrast agents? If so, what specific agent and dose?"
+1,Haven't acquired NHP data myself
+2,No
+3,NO
+4,N/A
+5,"MION , from 11mg/kg to 8-9 during a continuous period of scanning (one session per day)     Then we use at the end Desferal to remove the accumulated iron."
+6,3. We don't use contrast agents
+7,N/A
+8,N.A.
+9,"MION, 10 mg/kg"
+10,N/A
+11,N/A
+12,N/A
+13,NA
+14,None
+15,No
+16,"Following the method of Landi and Freiwald 2017, Sliwa and Freiwald 2017, a MRI contrast agent Molday ION (BioPAL, Inc) was injected at iron doses of 8 mg/kg into femoral vein of macaque monkey before scanning.    1.  S. M. Landi, W. A. Freiwald, Two areas for familiar face recognition in the primate brain. Science. 357, 591-595 (2017).  2.  J. Sliwa, W. A. Freiwald, A dedicated network for social interaction processing in the primate brain. Science. 356, 745-749 (2017)."
+17,No
+18,No.
+19,Always for functional imaging. Currently we use Molday (~ 10mg/kg)
+20,iDK
+21,No MION and no contrast agents. At least at 4T (BOLD) 1 single movie run 5 minutes (30-sec movie segments 5 repeats) can provide FDR-corrected significant activation maps with greater than 3% signal change from the mean.
+22,"currently not, prior Feraheme or Molday ION, CLIOH, 8-10 mg/kg"
+23,No
+24,only BOLD at the moment
+25,NA
+26,N/A
+27,"We have experimented with gadolinium and fluorinert to improve tissue contrast (but the person who knows is our MR physicist, Mathieu Santin from ICM)"
+28,gadolinium and fluorinert have been tested --> Mathieu Santin from ICM Paris is the expert
+29,Molday Ion  10mg/kg
+30,"- iron-based contrast agent (SINEREM, MION, FERAHEME) at 10 mg/kg in IV  - pure BOLD signal"
+31,"yes for fucntional imaging - Molday Ion, 2.5 (5 ul/g i.v.)  (*Please note this applies to rodents - feel free to scrap this from the answer pool if not applicable*)"
+32,We are using MION (Molday 10-12mg/kg).
+33,"We mainly used BOLD for fMRI so far, and some pilot microstimulation-fMRI sedated scans with MION (Rienso ferumoxytol 30 mg/ml).    We use Gadolinium (Magnevist) for injection localizations (1:200 Gd to PBS)."
+34,yes MION for fMRI on awake macaques.  Gd for perfusion MRI on some projects
+35,"house-made MION, 12-18 mg/Kg, to achieve a 50-60% signal reduction relative to EPI signal before MION."
+36,MION
+37,N.A.

@@ -1,0 +1,38 @@
+record_id,8. What do you use for distortion correction and acquisition for Mion vs BOLD sequences?
+1,Haven't acquired NHP data myself
+2,"We just did BOLD-imaging. We used multi-echo-multi-band, with multi-echo ICA de-noising. For distortion correction, we used TOP-UP for distortion correction (having acquired some volumes with the opposite phase-encoding direction)."
+3,NA
+4,N/A
+5,na
+6,We do not use contrast agents
+7,"N4 (ants), topup"
+8,N.A.
+9,FSL TOPUP for BOLD sequences.
+10,N/A
+11,N/A
+12,N/A
+13,NA
+14,N/A
+15,N/A
+16,EPI distortion correction with two opposite encoding phase.
+17,NA
+18,I'm experimenting with top-up. It appears to be taking a step in the right direction...
+19,W use as short TEs as possible (depends on scanner specs).
+20,NA
+21,"I don't think MION is required for the reliable acquisition of NHP imaging data. Thus, I refrain from using MION."
+22,NA
+23,"Reconstruction tools provided by Hauke Kolster, or Mark Chiew (WIN, Oxford)"
+24,Using only BOLD sequences - unwarping by fieldmap or point-spread-correction of EPI distortion map
+25,NA
+26,Standard Old Normalization and two way brain masking and re-alignment
+27,-
+28,--
+29,jip and FSL
+30,NA
+31,Just 12 dof registration - MION are much less distorted so no correction is required.   (*Please note this applies to rodents - feel free to scrap this from the answer pool if not applicable*)
+32,We are currently using a set of forward and reverse phase direction Spin Echo images for distortion correction.  We collect a set both before and after MION injection in case MION has an effect on the distortion.
+33,BOLD only with Fieldmap  Plan to use TopUp https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/topup/Faq with FSL
+34,same sequence
+35,Place scan to correct for field inhomogeneities.    TE ~17 ms for BOLD and 13 ms for MION.
+36,Spin-echo type B0 fieldmapping
+37,N.A.

@@ -1,0 +1,38 @@
+record_id,1. What type of scanner and head coil(s) does your work rely on? Are there any specific advantages?
+1,Not sure yet
+2,"I am no longer collecting data, but we used a Siemens 3T Skyra at Mount Sinai, with some data collected on a Siemens 7T MAGNETOM.  We used Hauke Kolster's custom 4-channel or 8-channel head coils"
+3,"Scanner 1: Siemens Prisma 3T (for macaques, baboons and others)  Coils 1: single loop coil    Scanner 2: Bruker Biospec 9.4T (for marmosets)  Coils 2: custom-ordered single loop coil"
+4,"Siemens Prisma 3T for acquisition.   For the rest, our MR physiscist Julien Sein (also attending the workshop) will answer all questions below about acquisition."
+5,Siemens prisma 3T (advantage: same as human participants)  Leuven 8 channels coils (ok for females but difficult for males due to head muscles; keeping the same position of the coils across sessions is an issue and can deeply affect the SNR ; for auditory protocols difficult to spatially arrange the coils with earplugs)
+6,"1. We work with a 3T Philips Achieva scan with 4 kinds of coil, the use depends of the sequence               a)  8-channel monkey head coil             b) 32-channel SENSE Head coil for human             c) 16-channel Pediatric SENSE Head/Spine coil            d)  6-channel SENSE Flex M coil"
+7,N/A
+8,N.A.
+9,"3.0 Tesla Siemens Tim Trio scanner with an 8-channel surface coil adapted for monkey head scanning,  3.0 Tesla Siemen Tim Trio scanner with a 15-channel knee coil adapted for monkey head scanning"
+10,"1. We work with a 3T Philips Achieva scan with 4 kinds of coils, the use depends on the sequence               a)  8-channel monkey head coil             b) 32-channel SENSE Head coil for human             c) 16-channel Pediatric SENSE Head/Spine coil            d)  6-channel SENSE Flex M coil"
+11,N/A
+12,N/A
+13,NA
+14,Scanner type: 3T horizontal bore scanner (Siemens Trio)  Head coil: Surface coil
+15,"Macaques  7T Terra Plus with AC84 Mk2 gradient coil with 8ch transmit, 24 ch receive. Allows for B1+ shimming and highly accelerated acquisitions which are important for reducing geometric distortion and high temporal coverage.    Marmosets  9.4T 8ch Rx with custom 20cm ID gradient coil"
+16,"Siemens 7T scanner and multi-array coil made in-house. Advantages are SNR, high spatial resolution."
+17,"Bruker 9,4T / custom 8ch head array"
+18,"Standard Siemans 3T human scanner. A surface coil, which increases signal compared to knee coil. Ideally there would be a purchasable multi-channel head-coil for NHP use."
+19,"3T Siemens PrismaFit  We make custom-built coils in the lab. Either 8 channel external coils, or implanted phased array coils (up to 10 channels). Especially the latter yields excellent SNR (e.g. 0.6 mm resolution images covering the entire brain at 3T)."
+20,siemens
+21,"4T or 7T, with Hauke Kolster 4-8 channel coils. Hauke Kolster coils are flexible allowing placement changes for individual animals with different head implants."
+22,"Siemens Prisma, 4 or 8 channel surface coils from Kolster-Windmiller for fMRI, Siemens 1 channel loop for anatomical"
+23,4Channel coil from Windmiller Kolster
+24,"Bruker scanners (4.7 T, 7 T) with custom-built head coils"
+25,NA
+26,9.4 tesla Bruker Scanner and 3 tesla Philips Scanner (8 channel head coil)
+27,3T Siemens Tim Trio  3T Siemens Prisma  11.7T Bruker Biospec
+28,"3T Siemens Tim Trio, 3T Prisma, 11.7T Bruker Biospec"
+29,Siemens 3T Prisma  awake functional : ad hoc 2x4-channel coils (Leuven style) : excellent for occipito-parieto-prefrontal / sub-optimal for orbitofrontal & subcortical  anesthetized functional / anatomical or dMRI: 2 L11 coils + 1 L7 coil
+30,3T horizontal Siemens scanner with 1Tx-1Rx or 1Tx-8Rx head coil.  7T horizontal Siemens scanner.  (11.7T coming next...)
+31,Burker 7T pharmascan. Bruker standard 4 element coil reduces matrix size and reduces EPI artefacts close to auditory canals.   (*Please note this applies to rodents - feel free to scrap this from the answer pool if not applicable*)
+32,Tim Trio 3T with a custom built 8-channel transmit and receive coil system.  Advantages are being able to place the coils with different placements of head-posts and chambers.  Disadvantage are inhomogeneities across the brain and different placements of the coils across sessions.
+33,"Previously Bruker 4.7T vertical (Caltech) with Bruker birdcage volume coil or quadrature coils (Bruker/Helmut Merkle), with adjustable matching/tuning. Advantages are the higher field strength and the more natural vertical sitting position of the animal (but there are also many disadvantages).     Currently 3T Siemens Prisma with Hauke Kolster's coils (https://www.wkscientific.com/):  1) Single channel Rx coil for the volume and surface anatomy (with the scanner bore Tx and pre-scan normalization, enabling fairly homogeneous RF coverage)  2) Single channel Tx-Rx for vessel localization and some diagnostic scans  3) 4-ch and 8 ch Rx + single channel Tx for fMRI  The advantage of these lightweight and adjustable coils is flexible placement of coil elements around the head and headpost / chamber implants, and adjustable tuning/matching allowing for the optimization of the coil to individual subjects."
+34,"3T Prisma, 2Loops 11cm or 16ch Pediatric coil, or 1Tx8Rx for fMRI  2loops better for image homogeneity, signal on small animals  1Tx8Rx good for fMRI on cortex"
+35,"Bruker Vertical 4.7 T with various coils (8-channel RAPID, house-made 1,4, and 5 channel coils).    Siemens Prisma horizontal 3T scanner.  Single Channel knee coil and multi-channel coil in future."
+36,Macaque: 24-ch coil multi-array RF coil  Marmoset:16-ch multi-array RF coil with 2-ch multi-channel Tx coils   Both on a 3T Siemens Prisma MRI scanner
+37,I am considering about this topic.

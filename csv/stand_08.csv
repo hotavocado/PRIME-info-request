@@ -1,0 +1,38 @@
+record_id,7. What acquisition standards do you feel are required for surface-based or volume based processing and registration?
+1,Haven't acquired NHP data myself
+2,NA
+3,NA
+4,N/A
+5,na
+6,a) Voxel size: 0.5 mm3 or less  b) Get 3 or more T1W images for improve SNR  c) Try to keep the same position into scanner (using the primate chair)  d) Get a sequence for dura segmentation (for example T2-FLAIR)   e) Control the level of hydratation of the animal during the acquisition
+7,Ways to know with pilot scanning if the field homogeneity is good enough for processing and registration.
+8,N.A.
+9,The baseline (before any implantation) scan with multiple T1w and T2w as the basis.
+10,We feel the next are required:  a) Voxel size: 0.5 mm3 or less  b) Get 3 or more T1W images for improve SNR  c) Try to keep the same position into scanner (using the primate chair)  d) Get a sequence for duramater segmentation (for example T2-FLAIR)   e) Control the level of hydratation of the animal during the acquisition
+11,N/A
+12,A high quality and high resolution isotropic T1 sequence is required.
+13,NA
+14,N/A
+15,NA
+16,"T1W is enough. High resolution and multiple scans helps.     Multiple scans can be averaged to remove noise, so that it can be registered to the atlas well. The challenge is an optimal algorithm (pipeline) for a good non-linear registration."
+17,NA
+18,High-quality T1.
+19,"1mm isotropic resolution is the bare minimum,"
+20,NA
+21,"I sometimes do whole-brain or partial-brian acquisitions. For each type of scan, I acquire an individual T1 volume."
+22,NA
+23,NA
+24,"for volume-based processing, whole-brain coverage with spatial resolution rivaling that of a small FOV image intended primarily on obtaining posterior brain coverage"
+25,NA
+26,N/A
+27,isotropic voxels
+28,isotropic resolution
+29,NA
+30,NA
+31,N/A
+32,NA
+33,N/A
+34,NA
+35,Daily T1W anatomical scan.  Higher resolution T1W scan helpful (especially if collected under anesthesia).
+36,"High resolution, high homogeneity, high quality images for structural MRI  High resolution, high temporal resolution images of fMRI  High resolution, high angular resolution, high b-value diffusion weighting of dMRI"
+37,N.A.

@@ -1,0 +1,38 @@
+record_id,"2. What image sequence types do you obtain in all studies? (e.g., T1W, T2W, dMRI, fMRI, field map); for each modality, what spatial resolution and (if used) multi-band factor?"
+1,"T1W, often T2W for hippocampal subfields"
+2,"T1w 0.5mm^3, T2w  0.5mm^3, dMRI (with reverse polarity sequence) 1mm^3, resting-state fMRI (1.5mm^3 - with reverse polarity sequence). Quantitative T1 0.5mm^3  Multiband = 2 & multi-echo for fMRI"
+3,"T1w, T2w, fMRI, DTI, MT, and field map images are routinely obtained"
+4,N/A
+5,T1/ T2 0.4mm    fMRI 1.25 mm     multiband 2 (not sure)
+6,"T1W, T2W, T2-FLAIR = 0.5 mm3  dMRI and field map =1.3 mm3"
+7,N/A
+8,"T1W, T2W, dMRI"
+9,"T1w, T2w, field map, resting-state fMRI, movie fMRI, task fMRI  0.5mm isotropic for T1w and T2w; 1.5mm isotropic for fMRI data."
+10,"T1W, T2W, T2-FLAIR = 0.5 mm3  dMRI and field map =1.3 mm3"
+11,N/A
+12,N/A
+13,NA
+14,Resting-state:  Voxel resolution: 1.9 x 1.9 x 1.8mm  Diffusion-weighted (DTI):  Voxel resolution: 1.8 x 1.8 x 2.5mm  Structural:  T1: Voxel resolution: 0.5 x 0.5 x 1.0mm  T2: Voxel resolution: 0.5 x 0.5 x 1.0mm  Magnetic Resonance Spectroscopy:  Voxel resolution: 10 x 10 x 10mm
+15,"T1W, fMRI, field map, B1+ map, dMRI"
+16,"T1W, fMR, field map, dMRI."
+17,PD-T2w   fMRI/field maps   no multiband   spatial resolution 0.25mm-0.4mm
+18,"T1, dMRI, fMRI, field-map. ~2mm for dMRI and fMRI. ~.5 mm for T1."
+19,All of the above. Mostly multiband (factor 2-3)
+20,"T1W, T2W, dMRI (DTI), fMRI, field map"
+21,"I typically acquire structural data at 0.5 isotropic for T1, T2and 1mm DWI and 1mm isotropic for EPI."
+22,"T1, EPI"
+23,T1 MPRAGE  fMRI   dMRI   fieldmap   gre3d
+24,"GE-EPI (1x1x2 mm whole brain), fieldmap, RARE, FLASH, MDEFT, no multi-band, but some 2x GRAPPA accelerated parallel imaging (1x1x1 mm)"
+25,NA
+26,"T1 weighted, T2 weighted, diffusion MRI, field Map, Magnetization Transfer"
+27,"most often T1W, T2W, in some cases dMRI.  Spatial resolution varying from 75µm isotropic up to 500µm isotropic (ex-vivo scanning for >12h)."
+28,"mostly T2W, TW1, sometimes dMRI  spatial resolution depending on specimen size between 100µm and 550µm isotropic (scanning max ~12h)"
+29,"T1W, T2W, dMRI, fMRI  field maps occasionally"
+30,sturcutral = T1 ; MPRAGE 0.80 mm isotropic  functional = T2* ; gradient-EPI 1.00 mm isotropic  field map
+31,"T2W RARE, dMRI, FMRI - no0 file map usually  No multi-ban (at the moment)  Resolution around 200 x 200 x 600 um  (*Please note this applies to rodents - feel free to scrap this from the answer pool if not applicable*)"
+32,We collect:   T1w .5 isotropic   T2w (SPACE) .5 isotropic   DSI  EPIs 1.6x1.6x2.0 with contrast agent  forward/reverse Spin Echo EPIs for field maps 1.6x1.6x2.0
+33,"T1W (MPRAGE). 0.5 iso  T2W (RARE), 0.25 x 0.25 x 1 mm for in-plane anatomy and electrode localization  fMRI (GE EPI) (1.2 iso); MB in development, targeting 1x1x1 mm and TR 1 s  GRE for RF sensitivity maps"
+34,"T1w MPRAGE: 0.4mm iso, T2w: SPACE 0.4mm iso, DWI: SE-EPI, 1mm iso, MB=2 if coil allows  fMRI: 1.5mm, MB=2 if coil allows"
+35,T1W (typically 0.5mm isotropic MDEFT) for daily anatomical.  Field Map.  Place correction scan.  fMRI (typically a 1.5 mm isotropic EPI)  sometimes a T2W RARE scan.
+36,"Macaque:   T1w: 0.5mm  T2w: 0.5mm  dMRI: 0.9mm (MBF=2, iPAT=2)  fMRI:1.25mm (MBF=5)  Spin-echo type B0 Field Map    Marmoset:  T1w: 0.36mm  T2w: 0.36mm  dMRI:0.7-0.8mm (MBF=2, iPAT=2)  fMRI:0.8-1.0mm (MBF=2)  Spin-echo type B0 Field Map"
+37,N.A.

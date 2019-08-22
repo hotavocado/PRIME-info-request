@@ -1,0 +1,38 @@
+record_id,"3. What are the main problems (preprocessing, analyses) that you run into and that the community needs to solve for NHP data?"
+1,Not sure of standardised pipelines
+2,NA
+3,"Brain extraction (skull stripping)  Surface-based analysis (generation of surface form T1, surface-based registration)  Field-map based EPI distortion correction  Lack of consensus on a single template space (MNI-like)   Limited variety of parcellations"
+4,"The variety of image quality is a challenge.  Denoising is most of the time imperative, and non-local means is the best method we found so far."
+5,"- measure of the MION dose across runs and sessions   - reorientation of images depending on the monkey position in the scanner  - skull stripping and segmentation are time consuming , no perfert and fast methods exist   - a clean surface generation tool"
+6,"a) Standardization for brain extraction   b) Standardization for dura segmentation  b) Standardization of the surface registration for NHP, maybe into Freesurfer  c) Design a pipeline for quality control and avoid manual correction"
+7,N/A
+8,"normalization, segmentation,"
+9,brain extraction; lack of the field map for distortion correction; denoising; harmonizing multi-site data etc.
+10,"a) Standardization for brain extraction   b) Standardization for duramater segmentation  c) Standardization of the surface registration for NHP, maybe into Freesurfer  d) Design a pipeline for quality control and avoid manual correction"
+11,"Preprocessing: some of the processing steps in e.g. FreeSurfer seem to depend on 'baked-in' knowledge of positions or morphologies of certain human brain structures, it would be fantastic if those could be generalized/made more adaptive for use in NHP brains. Analyses: availability of atlases/parcellations for surface or connectome analyses in different NHP species could be an important future goal, but this is obviously limited by the scarcity of NHP datasets other than macaques."
+12,Standardized preprocessing pipelines (structural and functional) are desired for NHP.
+13,NA
+14,Need some standardised structural templates
+15,NHP data its higher resolution typically and human algorithms aren't always well adapted to this.
+16,Registration to atlas takes a lot of time.
+17,Preprocessing steps; hidden '1mm ~= 1 voxel' assumptions in code
+18,Skull-stripping.
+19,motion correction can be tricky. Also excellent grey-white matter segmentation can be an issue -for flatmap generations and analyses along the cortical depth
+20,The problem is more about what approach is better to show us the movements of participants in the scanner
+21,"One main issue with data-preprocessing of NHP data relates to the additionally large head/muscle structures of NHPs. Optimized skull-stripping and image alignment techniques are essential in this regard.  Additionally, NHPs typically carry head implants (head-post and chambers) which generate large distortions on the echo-planar images."
+22,"common alignment space with labels, automatic parcellation into these labels based on anatomical criteria"
+23,NA
+24,standardizing the normalization pipeline
+25,NA
+26,N/A
+27,Time consuming manual editing; absence of atlases
+28,"segmentation requires lots of manual work and time, often no templates/atlases available"
+29,preprocessing  cortical segmentation  subcortical   production of flat maps   (each step take much longer than it should)
+30,"- define and implement standard parameters and option for NHP (for instance, extend regular choices like -monkey and/ or -surface_coil for a skull stripping with AFNI to many other tools)."
+31,N/A (rodents wise - automatic skull stripping - registration of highly distorted EPIs to templates)
+32,"A standardized preprocessing pipeline that works across institutes would be an extremely useful time saver.  Similarly, while not always possible, a general consensus on templates would help to move the field forward."
+33,"In my experience, the main problems are the dynamic off-resonance effects (motion artifacts) arising due to monkey body motion (e.g. changing the position of the body in the chair) and even jaw/jaw muscle movements during or prior to reward delivery.  The active training and motion-contingent trial aborts during the scanning help (at least for event-related design), but do not fully eliminate the problem.     In terms of the analysis, the inability to do proper random-effect analysis across (typically two or very few) subjects, hence resorting to the individual fixed effect analysis, but at the same time being hindered and haunted by potential discrepancies between the individual subjects, especially for whole brain analyses and many ROIs (such differences, while undoubtedly present, often remain obscured by the random effect analysis in the human neuroimaging)."
+34,NA
+35,"> Skull stripping  > Good segmentation of tissue classes, especially subcortically, in occipital lobe, near insula, etc.  > Generation of surfaces and flat maps for individual NHPs"
+36,Brain extraction and segmentation
+37,N.A.

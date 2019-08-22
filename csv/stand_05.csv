@@ -1,0 +1,38 @@
+record_id,"5. What protocols have you applied to do awake imaging (e.g., Do you obtain eye-tracking in the scanner? What physiologic measures?)?"
+1,Haven't acquired NHP data myself
+2,Eye tracking
+3,"Physiological measures obtained: heart and respiratory rates, rectal temperature, capnography, pulse oximetry"
+4,N/A
+5,We control the triggers of the scanner depending on the monkey behavior (monitored by a camera inside the scanner but without eye track) ; via a home made matlab script (Regis Trapeau)  If the monkey move the acquisitions stop and no reward is delivered.   All these steps are indicated to the monkey via a screen.     The protocol is an auditory passive (just stay still) listening task   4 categories of sounds are used: macaque voc ; human voc ; marmoset voc and environmental sounds  Stimuli are delivered in an event related paradigm ( but 3 repetition per sound) during silent time frame (clutered sparse acquisition)
+6,"We do not work with awake imaging, yet."
+7,N/A
+8,N.A.
+9,naturalistic viewing movie fMRI without eye-tracking at the current stage but would prefer with eye-tracking recording.
+10,N/A
+11,N/A
+12,N/A
+13,NA
+14,not awake
+15,"Eyetracking, heart rate, respiration, temperature"
+16,"Currently we record the eye-movement. Would be better to record the physiological factors especially heart rate, respiration and pupil size.     Cardoso MMB, Lima B, Sirotin YB, Das A (2019) Task-related hemodynamic responses are modulated by reward and task engagement. PLOS Biology 17:e3000080."
+17,N/A
+18,Only 'resting' MRI -- heart-rate and temperature.
+19,always eye-tracking (position and pupil). We also control hand positions. Extensive training fo the animals prior fMRI acquisition is KEY.
+20,NA
+21,Depending on the animal willingness to work for eye-calibration I do obtain eye-tracking signals. But it is not always a possibility.
+22,Eye-tracking
+23,Eye monitoring has been used using MRC camera and python based software provided by Olivier Joly
+24,"only did limited away image, where pulse oximetry and eye-tracking was recorded during imaging."
+25,NA
+26,Arrington Research Eye Tracker is used. Further the physiological measures of heart rate and breathing is taken care off  during data acquisition.
+27,no awake imaging
+28,--
+29,too many to describe  eye tracking data recorded in awake protocols
+30,- eye tracking  - HD camera  - fixation rate for a specific window  - (...)
+31,work in progress
+32,We currently only collect eye-tracking during awake imaging.
+33,"Eye-tracking, image-based jaw/body motion tracking with movement contingent trial aborts for the time-resolved event-related designs, where the trial might be structured like a typical delay-response ephys task (but with longer intervals to account for the BOLD HRF), with fixation, visual cue, memory delay, saccade or hand movement response, and after some additional delay - large liquid reward. If monkey is aborting the proper eye/hand fixation or moves his jaw or body noticeably, the trial is aborted and no reward is delivered. The monkey is allowed of course to move during the reward period and the inter-trial interval.     Currently, we are developing respiration (easy) and heart rate (ECG, more difficult) monitoring during the awake imaging."
+34,NA
+35,eye-tracking   reward  face-oriented camera  pupil diameter   end tidal CO2 collection possible during sedated scans
+36,Eye-tracking
+37,N.A.

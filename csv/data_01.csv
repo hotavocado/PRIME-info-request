@@ -1,0 +1,38 @@
+record_id,1. What software package(s) do you use for data analysis?
+1,"FreeSurfer, SPM"
+2,"FSL, python, matlab, ANTs, FreeSurfer, TrackVis"
+3,"FSL, ANTS, AFNI, nipy, nipype"
+4,NiPype  Ants  FSL  NLM  BrainVisa
+5,spm   fmri stats   matlab   fsl
+6,"1a. For surface and volume analysis:   ANTS, Freesurfer cross and longitudinal pipeline, Connectome Workbench, CARET, AFNI and CIVET.    1b. For solve the problems of surface and volume analysis software's:        ANTS, Connectome Workbench, mrtrix, CARET, ITKsnap, FSL, mrtrix and BEAST"
+7,N/A
+8,I am pondering about this topic for my data analysis.
+9,"AFNI, ANTs, FreeSurfer, FSL, Workbench"
+10,"a) We use for surface and volume analysis the next:   ANTS, Freesurfer cross and longitudinal pipeline, Connectome Workbench, CARET, AFNI and CIVET.    b) For solving the problems of surface and volume analysis softwares:     ANTS, Connectome Workbench, mrtrix, CARET, ITKsnap, FSL, mrtrix and BEAST"
+11,"FSL, FreeSurfer"
+12,"FSL, FreeSurfer, ANTs, SPM"
+13,NA
+14,SPM
+15,"fsl, afni"
+16,afni  nipype  freesurfer  FSL
+17,SPM
+18,"ANTS, AFNI, FSL, DTITK."
+19,"custom built software with bits from SPM, SPL, Freesurfer, Caret"
+20,FSl  SPM  Matlab  R studio
+21,AFNI/SUMA
+22,"Freesurfer, FSL, JIP, AFNI"
+23,FSL  Matlab   Brain Visa
+24,"Matlab, SPM, R, AFNI, FSL"
+25,NA
+26,"FMRIB Software Library, Statistical Parametric Mapping, DTI Studio, DSI Studio, and TrackVis"
+27,"FSL, Freesurfer, ANTS, AFNI, Nilearn, Nipype, CBS tools, Slicer3D, ITK Snap, Segmentator, StereotaxicRAMON, volume, meshgeometry, MeshSurgery, ape, phytools, phylip, rphylopars"
+28,"nilearn, nipype, CBStools, afni, ants, freesurfer,FSL, slicer3D, ITKsnap, segmentator, strereotaxic ramon, volume, meshgeometry,meshsurgery,ape,phytools,phylip,rphylopars,"
+29,spm  fsl  jip  freesurfer  ANTS  workbench (and caret)  + ad hoc scripts for quality assessment
+30,"ANTS, FSL, SPM, JIP, nilearn, freesurfer, in-house implementations, etc."
+31,"AFNI, FSL, custom code (*Please note this applies to rodents - feel free to scrap this from the answer pool if not applicable*)"
+32,"We use a combination of multiple software packages for data analysis, with a majority of our preprocessing steps being run with AFNI, after trial and error with multiple packages.  Currently, we are using the nipype python package to run select programs from ANTs, AFNI, and FSL. In addition to this homemade pipeline, we are working on moving our preprocessing pipeline to C-PAC for a more compact package.   After preprocessing, we tend to use MATLAB and AFNI for specific data analyses based on the given project."
+33,Custom MATLAB code in combination with the NeuroElf (http://neuroelf.net/)  BrainVoyager (mainly for visualization)  Hauke Kolster's offline SENSE reconstruction and alignment (only experimental pilot use so far)  with JIP (http://www.nmr.mgh.harvard.edu/~jbm/jip/)  Plan to combine the MATLAB based NeuroElf pipeline with FSL FLIRT/FNIRT co-registration and TopUp for distortion correction.  Planner for implant planning and ephys/microstim/inactivation site reconstructions (https://www.tsaolab.caltech.edu/planner/).
+34,"SPM, FSL, AntS, AtlasBrex, CMTK"
+35,AFNI  NMT (NIMH Macaque Template) scripts   ANTs (and its tissue segmentation tool Atropos)  CIVET (macaque version)
+36,NHP HCP pipeline (https://github.com/Washington-University/NHPPipelines)  Connectome Workbench  FSL  FreeSurfer
+37,I am considering about this topic.

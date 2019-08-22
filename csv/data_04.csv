@@ -1,0 +1,38 @@
+record_id,4. Do you rely primarily on volume or surface-based approaches for inter-subject registration? Is there a particular reason as to why?
+1,"Depends on the region. Surface based work much better for cortical regions, but volume is more suitable for subcortical regions."
+2,"I use both. For human post-mortem I use surface-based, because of the weird shape changes to the brain. For human in-vivo I have used BBR & ANTs (volume-based).     For the monkey I have used volume-based. As there are fewer sulci, I wonder is there less of an advantage of surface-based registration?"
+3,Currently relying on volume-based. It is not always easy to generate individual-subject surface from T1 anatomical data. Would be nice to have a freesurfer-like pipeline that does that for NHPs
+4,"We actually develop methods to register subjects together in a surface-based way.  There are a reasons why:  - We are interested in cortical organisation and sulcal anatomy, best described on the surface.  - We also want to establish correspondences with humans and other primates for which we already have surface-based models of cortical organisation."
+5,only at the subject level for the moment
+6,We prefer a surface-based approach because it reduces the mistakes of 'kissing gyrus'  and it is possible to use the surface for other analysis.
+7,N/A
+8,NO
+9,The surface-based approaches are preferred but volume-based is also important for segmentation and subcortical analysis.
+10,We prefer surface-based approach because reduces the mistakes in the gyrus 'kissing gyrus'  and it is possible to use the surface for other analysis.
+11,N/A
+12,"I primarily rely on volumetric registration approaches, since subcortical and cerebellar structures are of interest."
+13,NA
+14,N/A
+15,"volume based seems to give better registration. There is a higher degree of variability in surface based markers, but in small areas, surface may be better,"
+16,Volume data has more information than the surface data.
+17,"Volume; easier, more commonly available"
+18,"Volume registration. Surface registration does not align subcortical structures -- it confuses me why one might ignore a large portion of the brain. Surface registration is a great complement, but if we as a field had to pick one, I can't imagine it wouldn't be volume."
+19,we use a combination
+20,surface-based approach- Surface-based registration provided significantly better alignment of cortical landmarks than volume-based registration.
+21,I typically use a volume-based approach as I could keep control over the entire dimensionally of the data. This is particularly important if neurosurgical techniques are to be applied to MR data.
+22,either
+23,volume-based
+24,volume-based approaches as surface-based approaches are less successful for subcortical and intra-cortical structures (e.g. the insular cortex).
+25,NA
+26,I do use the surface based inter-subject registration for data normalization.
+27,We do both
+28,both
+29,Volume : much more precise and accurate
+30,Volume-based approache.  Our study are also focused on deep structures like Thalamus.
+31,Volume works best in rodents  (*Please note this applies to rodents - feel free to scrap this from the answer pool if not applicable*)
+32,Volume based registration and analyses.  Subcortical structures and regions are often critical to my analyses.
+33,"So far, we only analyzed activation maps in individual subjects separately (using mainly native AC-PC volume data), and the analysis across animals was performed using ROI timecourse analysis. One of the reasons to use volume approach is the interest in subcortical structures; the other reason is arguably more precise localization of activation to e.g. dorsal/ventral bank or fundus (e.g. sts) or lateral/medial bank (e.g. ips). We co-register the atlas data (e.g. https://scalablebrainatlas.incf.org/macaque/CBCetal15) to each individual animal to facilitate the identification of ROIs; therefore, we are definitely interested in an standardized way to co-register volume data to an atlas or a template."
+34,NA
+35,Volume based.   Volume has more information for registering subjects and surface maps are currently hard to generate (but CIVET-macaque will do this) and are prone to errors that would distort surface registration.
+36,Surface-based for the cortex; CIFTI grayordinates for cortical vertices  + subcortical gray matter voxels; CIFTI whiteordinates for white matter voxels. We consider these methods to be substantially more accurate.
+37,N.A.

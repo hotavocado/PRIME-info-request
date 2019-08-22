@@ -1,0 +1,38 @@
+record_id,"6. What protocols are you using to optimize various acquisition parameters? Or rather, what are the tools and parameters you use to assess the quality of your acquisition?"
+1,Haven't acquired NHP data myself
+2,We had a lot of trouble with non-linear distortion through the field caused by body motion in our early awake scans. We visually inspected the data for these artifacts.
+3,assessment of tSNR (for fMRI data)
+4,N/A
+5,na
+6,We use MRIQC
+7,MRIQC
+8,I am pondering about this topic for my data scan.
+9,N/A
+10,We use MRIQC
+11,N/A
+12,N/A
+13,NA
+14,Optimization of the magnetic field prior to data acquisition: Manual shimming
+15,Real time motion and image stability verification on both scanners.
+16,NA
+17,NA
+18,None. Mostly relying on the work of other groups and co-opting protocols.
+19,tSNR measurements are typically very useful. We also control teh images online. Motion is usually a major culprit. Hence reducing motion is something we really focus on.
+20,3D T1 volume MPRAGE  T2 PROPELLER  Axial T2 FLAIR  Susceptibility Weighted Images (SWI)  T2*-weighted EPI (Resting-State fMRI) and Field Maps  Diffusion Tensor Image (DTI)
+21,I used BOLD modulation and the FFT of each voxel for block-design to asses the quality of the data during acquisition.  Essentially a 5 min movie run.
+22,"Q&A package from MGH, uncombined sequences, tSNR"
+23,NA
+24,"online assessment of ghosting artifacts and warping, offline calculation of tSNR maps"
+25,NA
+26,Standard protocols
+27,-
+28,--
+29,global and local SNR measures  head movement regressors  eye movement patterns
+30,NA
+31,"Nothing fancy- standard measurements such as SNR, tSNR.   (*Please note this applies to rodents - feel free to scrap this from the answer pool if not applicable*)"
+32,NA
+33,"During data acquisition:    The noise level and any RF frequency (zipper) artifacts are tested by turning off the RF amplitude (via software sequence parameters) and acquiring several volumes of background noise EPI prior to actual EPI acquisition.     For multichannel coils, an uncombined sequence is acquired to check each coil element (channel) separately.     For the awake T1W anatomical scans (e.g. MPRAGE), the phase encoding direction (L-R vs. A-P, or H-F) can be optimized to minimize the eye/jaw/body motion artifacts and the interference from Gd filled chambers for the chamber localization scans.    Volume-selective 3Dvshimming is performed iteratively using advanced adjustments while the monkey is not moving, and then optimized further using manual interactive adjustment of individual shims, to minimize the width of the tuning curve and maximize T2*.     Offline:    The fMRI EPI series are subjected to QA pipeline assessing spatial and temporal SNR and temporal stability, via NeuroElf and custom QA MATLAB code.    The outlier volumes are detected from the EPI stability timecourse and modeled with confound predictors (and excluded from event-related averages)."
+34,SNR measurement for each session and look at noise correlation of coils.
+35,Collect a Place scan to correct for field inhomogeneities.  Confirm monkey did not move during Place scan.  Assess % signal drop caused by MION.  measure SNR after MION by comparing mean EPI signal in brain with st.dev. of signal with transmit coil off.  Assess tSNR after deconvolve.  F-stat of deconvolve model or peak F-stat in volume.
+36,"NHP HCP protocols using species-specific spatial resolution based on cortical thickness. Temporal resolution of fMRI, comparable with human high-quality data like HCP"
+37,N.A.

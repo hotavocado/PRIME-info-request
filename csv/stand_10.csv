@@ -1,0 +1,38 @@
+record_id,9. What would you like to see as a 'standard' for acquisition sequences across community and PRIME contributors?
+1,"T1W, T2W, DTI, localizer fMRI"
+2,NA
+3,NA
+4,N/A
+5,na
+6,"a) FOV size, flip angle, voxel size for T1W/T2W/dMRI/fMRI  b) kinds of coils recommended  c) sequences for improve the brain extraction.  d) For T1W and T2W : Minimum number of images to improve SNR  e) For dMRI: b-values, numbers of B0 images, minimum number of directions and echo spacing value."
+7,"A standard that compares and expands on human and primate scanners, different coils, positions (supine vs standing), scanner strengths and vendors (Philips vs Siemens)."
+8,Flexibility
+9,NA
+10,"We would like the next:  a) FOV size, flip angle, voxel size for T1W/T2W/dMRI/fMRI  b) kinds of coils recommended  c) sequences for improve the brain extraction.  d) For T1W and T2W : Minimum number of images to improve SNR  e) For dMRI: b-values, numbers of B0 images, minimum number of directions and echo spacing value."
+11,N/A
+12,"T1, T2, DWI, resting-state fMRI"
+13,NA
+14,N/A
+15,FLAWS or some kind of sequence which can give grey matter bright and white matter dark and vice versa. Would likely help registration.  T1 weighted EPIs to register to T1 weighted anatomicals.
+16,"A standard acquisition can certainly make the analysis easier.     The registration between structures takes a lot of time.   - Better decide one image modality: T1W or T2W.  - Making the center of the brain approximately the same will work well with an automatic analysis pipeline.  - Head orientation can be adjusted, but should be indicated in documentation.  - Multiple scan sessions is recommended, so that one can create a high-quality average image.  - There is a big difference between male and female monkey brains. Choose 1 sex if possible.    The functional images  - EPI distortion should be corrected, for example with scanning both phase-encoding directions. It takes very little time to scan an extra image for correction purpose.  - In case the registration fails, the center of the functional image should be the same with the structural image during acquisition."
+17,NA
+18,"No strong opinion, other than there should be a standard."
+19,I think we have to discuss this at the mtg. We are heavily investing in implanted PA coils coils which is truly transformative compared to standard imaging. This is probably not feasible at this moment for most groups.
+20,more about rsfMRI
+21,"DWI, and naturalistic-free viewing (awake-fMRI). I believe is very important, if the compilation of a large number of primates is to be taken as an overall result to keep a good eye on data coming from chamber implanted monkeys as these might contain large distortions and result in false-positive outcomes if not deal-with correctly."
+22,"common parameters for EPI imaging, probably not multiband"
+23,NA
+24,"a standardized slice thickness would be helpful, for instance, if everyone worked to constrain slice thickness along the z-stack to a maximum of 1-2 mm would ensure that we obtain higher-resolution intra-laminar data"
+25,NA
+26,N/A
+27,-
+28,-
+29,"This is a very broad question, but for sure MION acquisitions should be prioritized both in awake and anesthetized designs + eye tracking signals + systematic T1W, T2W, fMRI"
+30,NA
+31,N/A
+32,"I think creating a standard for this would be difficult and studies may require different acquisition sequences, however, I would like to see whole brain T1w images at a max of .5 isotropic. This will help greatly in comparing across subjects and studies regardless of other acquisition differences."
+33,"For EPI, 1 mm isotropic voxel with TR 1 s, 36 slices."
+34,NA
+35,NA
+36,"Investigators should aim for as high-quality, high resolution images as possible, but these depend on the availability of sequences (e.g. multi-band EPI sequence) and multi-array coils used on or with the MRI scanner as is done in HCP-style projects."
+37,N.A.

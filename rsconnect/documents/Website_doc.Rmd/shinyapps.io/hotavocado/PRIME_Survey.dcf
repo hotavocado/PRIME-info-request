@@ -1,0 +1,12 @@
+name: PRIME_Survey
+title: PRIME_Survey
+username:
+account: hotavocado
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1103986
+bundleId: 2343222
+url: https://hotavocado.shinyapps.io/PRIME_Survey/
+when: 1566432572.80461
+asMultiple: FALSE
+asStatic: FALSE

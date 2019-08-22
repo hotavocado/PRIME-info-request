@@ -1,5 +1,4 @@
-#Generate wordclouds 
-# Load
+#function to create wordcloud
 require("tm") # for text mining
 require("SnowballC") # for text stemming
 require("wordcloud") # word-cloud generator
@@ -25,7 +24,8 @@ test <- tm_map(test, removeNumbers)
 test <- tm_map(test, removeWords, stopwords("english"))
 # Remove your own stop word
 # specify your stopwords as a character vector
-test <- tm_map(test, removeWords, c("can", "use", "put", "least", "must", "nhp", "NHP", "scanner", "coil", "coils")) 
+test <- tm_map(test, removeWords, 
+               c("can", "use", "put", "least", "must", "nhp", "NHP", "scanner", "coil", "coils")) 
 # Remove punctuations
 test <- tm_map(test, removePunctuation)
 # Eliminate extra white spaces
@@ -47,7 +47,19 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 1,
 }
 
 
+
 #create all wordclouds and export to PNG
 
+#dir.create('wordclouds')
 
+
+
+for (i in names(filelist)) {
+  
+  jpeg(filename=paste0("wordclouds/", i, ".jpg"), quality = 150)
+  create_wordcloud(filelist[[i]])
+  dev.off()
+
+  
+}
 

@@ -31,7 +31,7 @@ Prime_data <- Prime_data %>% rename_at(col_names, ~paste0(questions))
 #subtract 'record_id' by 1, since first record is test by Lei
 Prime_data <- Prime_data %>% mutate(record_id = record_id - 1)
 
-dir.create('csv')
+#dir.create('csv')
 
 
 #turn questions into csv

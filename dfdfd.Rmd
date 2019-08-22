@@ -57,7 +57,7 @@ div.vert pre.r {
 ```{r echo=FALSE}
 #packages and load dataset
 require('kableExtra')
-load('filelist2.RData')
+load(filelist2.RData)
 ```
 
 <br>
@@ -102,10 +102,8 @@ kable(filelist2[['design_01']]) %>%
   scroll_box(width = "100%", height = "250px") 
 
 ```
-<center>
-![design01](wordclouds/design_01.jpg)
-</center>
 
+<img align="center" src="wordclouds/design_01.jpg">
 
 - - -
 
@@ -127,9 +125,6 @@ kable(filelist2[['design_02']]) %>%
   
 ```
 
-<center>
-![design02](wordclouds/design_02.jpg)
-</center>
 
 
 
@@ -158,9 +153,7 @@ kable(filelist2[['data_01']]) %>%
 ```
 
 
-<center>
-![data_01](wordclouds/data_01.jpg)
-</center>
+
 
 
 - - -
@@ -177,9 +170,6 @@ kable(filelist2[['data_02']]) %>%
   
 ```
 
-<center>
-![data_02](wordclouds/data_02.jpg)
-</center>
 
 
 - - -
@@ -199,9 +189,6 @@ kable(filelist2[['data_03']]) %>%
 
 ```
 
-<center>
-![data_03](wordclouds/data_03.jpg)
-</center>
 
 
 - - -
@@ -219,9 +206,6 @@ kable(filelist2[['data_04']]) %>%
   
 ```
 
-<center>
-![data_04](wordclouds/data_04.jpg)
-</center>
 
 
 - - -
@@ -244,9 +228,6 @@ kable(filelist2[['stand_01']]) %>%
 
 ```
 
-<center>
-![stand_01](wordclouds/stand_01.jpg)
-</center>
 
 
 - - -
@@ -266,9 +247,6 @@ kable(filelist2[['stand_02']]) %>%
 
 ```
 
-<center>
-![stand_02](wordclouds/stand_02.jpg)
-</center>
 
 
 - - -
@@ -288,9 +266,7 @@ kable(filelist2[['stand_03']]) %>%
 
 ```
 
-<center>
-![stand_03](wordclouds/stand_03.jpg)
-</center>
+
 
 - - -
 <br>
@@ -306,9 +282,7 @@ kable(filelist2[['stand_04']]) %>%
   scroll_box(width = "100%", height = "250px") 
 ```
 
-<center>
-![stand_04](wordclouds/stand_04.jpg)
-</center>
+
 - - -
 <br>
 
@@ -324,9 +298,7 @@ kable(filelist2[['stand_05']]) %>%
   
 ```
 
-<center>
-![stand_05](wordclouds/stand_05.jpg)
-</center>
+
 
 - - -
 <br>
@@ -343,9 +315,6 @@ kable(filelist2[['stand_06']]) %>%
   
 ```
 
-<center>
-![stand_06](wordclouds/stand_06.jpg)
-</center>
 
 
 - - -
@@ -363,9 +332,7 @@ kable(filelist2[['stand_08']]) %>%
   
 ```
 
-<center>
-![stand_08](wordclouds/stand_08.jpg)
-</center>
+
 
 - - -
 <br>
@@ -384,9 +351,7 @@ kable(filelist2[['stand_09']]) %>%
 
 ```
 
-<center>
-![stand_09](wordclouds/stand_09.jpg)
-</center>
+
 
 - - -
 <br>
@@ -403,9 +368,7 @@ kable(filelist2[['stand_10']]) %>%
   
 ```
 
-<center>
-![stand_10](wordclouds/stand_10.jpg)
-</center>
+
 
 - - -
 <br>
@@ -422,9 +385,8 @@ kable(filelist2[['additional']]) %>%
 
 ```
 
-<center>
-![additional](wordclouds/additional.jpg)
-</center>
+
 
 <br>
+
 

@@ -1,3 +1,5 @@
+require(rmarkdown)
+
 #Control script to run in order to update files for the website
 source('question_to_csv.R')
 source('question_to_excel.R')
@@ -16,3 +18,5 @@ filelist2 <- map(filelist, rename_col)
 #export filelist
 save(filelist2, file = 'filelist2.RData')
 
+#render markdown to html 
+rmarkdown::render(input = "Website_doc.Rmd", output_file = "index.html")

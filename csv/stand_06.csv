@@ -36,3 +36,13 @@ record_id,"6. What protocols are you using to optimize various acquisition param
 35,Collect a Place scan to correct for field inhomogeneities.  Confirm monkey did not move during Place scan.  Assess % signal drop caused by MION.  measure SNR after MION by comparing mean EPI signal in brain with st.dev. of signal with transmit coil off.  Assess tSNR after deconvolve.  F-stat of deconvolve model or peak F-stat in volume.
 36,"NHP HCP protocols using species-specific spatial resolution based on cortical thickness. Temporal resolution of fMRI, comparable with human high-quality data like HCP"
 37,N.A.
+38,"tSNR, cSNR, distortions, beta maps"
+39,"We remove scans with major motion artifact, rather than correcting them. we check each scan for spikes, ghost artifact."
+40,"NHP HCP protocols using species-specific spatial resolution based on cortical thickness. Temporal resolution of fMRI, comparable with human high-quality data like HCP"
+41,-
+42,N/A
+43,NA
+44,NA
+45,SNR and CNR
+46,"SNR, tSNR"
+47,Automatic anatomical QA based on contrast between foreground/background/WM/GM/CSF.

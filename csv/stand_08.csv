@@ -36,3 +36,13 @@ record_id,7. What acquisition standards do you feel are required for surface-bas
 35,Daily T1W anatomical scan.  Higher resolution T1W scan helpful (especially if collected under anesthesia).
 36,"High resolution, high homogeneity, high quality images for structural MRI  High resolution, high temporal resolution images of fMRI  High resolution, high angular resolution, high b-value diffusion weighting of dMRI"
 37,N.A.
+38,Depends on the scientific question and the tradeoffs one is willing to make. Ideally 1 mm isotropic or higher.
+39,"- Exact same landmarks to align the slice and FOV of the acquisition (e.g., AC-PQ.  - Careful, if needed semi-manual, coreg, then normalization onto a standard brain with its  complete ROI map."
+40,"High resolution, high homogeneity, high quality images for structural MRI  High resolution, high temporal resolution images of fMRI  High resolution, high angular resolution, high b-value diffusion weighting of dMRI"
+41,-
+42,N/A
+43,NA
+44,NA
+45,resolution < 1 mm isotropic
+46,Good GM/WM contrast.
+47,"Isometric voxel size is required for surface based processing, but might be less critical for volume-based processing"

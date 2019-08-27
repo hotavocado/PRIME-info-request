@@ -28,8 +28,8 @@ names(filelist) <- names
 #add the dataframes to the worksheets
 
   #load in redcap export and the list of column names in the correct order
-  Prime_data <- read_csv("PremeetingRequestFor_DATA_2019-08-20_1544.csv", na = c(""))
-  col_names = names(Prime_data[6:21])
+  #Prime_data <- read_csv("PremeetingRequestFor_DATA_2019-08-20_1544.csv", na = c(""))
+  #col_names = names(Prime_data[6:21])
 
   
 #add one worksheet per question into the excel workbook

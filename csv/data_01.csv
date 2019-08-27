@@ -36,3 +36,13 @@ record_id,1. What software package(s) do you use for data analysis?
 35,AFNI  NMT (NIMH Macaque Template) scripts   ANTs (and its tissue segmentation tool Atropos)  CIVET (macaque version)
 36,NHP HCP pipeline (https://github.com/Washington-University/NHPPipelines)  Connectome Workbench  FSL  FreeSurfer
 37,I am considering about this topic.
+38,"FSL, AFNI, ANTs, Elastix, SPM, Conn Toolbox"
+39,"SPM12  Matlab-based scripts developed at MPI-BC  My student Renee Hartig has also used AFNI for coreg to 099 based on Reveley et al. (2016), but we prefer in general our own manual registrations, with a GUI developed by Yusuke Murayma (MPI) and later adapted based on our needs. Renee also probably looked at FreeSurfer and other packages."
+40,NHP HCP pipeline (https://github.com/Washington-University/NHPPipelines)  Connectome Workbench  FSL  FreeSurfer
+41,"FSL, wb_command, various python libraries"
+42,"Conn toolbox, preprocessing tools on github."
+43,NA
+44,"SPM 12, CONN"
+45,"SPM, Matlab and R"
+46,"dcm2niix  Nipype with ANTS, AFNI, and FSL components  Freesurfer, ITK-SNAP"
+47,"FreeSurfer, Caret, AFNI, FSL, REST, SPM, ANTs, and code from research papers, custom-written code if none is available."

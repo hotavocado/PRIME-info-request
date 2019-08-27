@@ -36,3 +36,13 @@ record_id,8. What do you use for distortion correction and acquisition for Mion 
 35,Place scan to correct for field inhomogeneities.    TE ~17 ms for BOLD and 13 ms for MION.
 36,Spin-echo type B0 fieldmapping
 37,N.A.
+38,FSL topup
+39,n/a
+40,Spin-echo type B0 fieldmapping
+41,"field map, topup"
+42,N/A
+43,NA
+44,NA
+45,"NA"
+46,We currently register to an unwarped reference (Bo-based) but also acquire TOPUP scans and fieldmaps with every session.
+47,ANTs N4 B0 distortion correction

@@ -36,3 +36,13 @@ record_id,"2. What image sequence types do you obtain in all studies? (e.g., T1W
 35,T1W (typically 0.5mm isotropic MDEFT) for daily anatomical.  Field Map.  Place correction scan.  fMRI (typically a 1.5 mm isotropic EPI)  sometimes a T2W RARE scan.
 36,"Macaque:   T1w: 0.5mm  T2w: 0.5mm  dMRI: 0.9mm (MBF=2, iPAT=2)  fMRI:1.25mm (MBF=5)  Spin-echo type B0 Field Map    Marmoset:  T1w: 0.36mm  T2w: 0.36mm  dMRI:0.7-0.8mm (MBF=2, iPAT=2)  fMRI:0.8-1.0mm (MBF=2)  Spin-echo type B0 Field Map"
 37,N.A.
+38,"T1W 0.5 mm isotropic  T2W 0.5 mm isotropic  fMRI 0.75 mm isotropic, MB2  B1 1 mm isotropic  B0 1 mm isotropic"
+39,"- GE-EPI, 1x1 mm2 in-plane res., TR/TE 200/20 ms, 20 to 25 axial slices with quadrature coil.  - GRAPPA-accelarated parallel imaging, 0.85x0.85 mm2, TR 1 sec, 18 to 20 axial slices with helmet.  - T1W MDEFT  - T2W RARE"
+40,"Macaque:   T1w: 0.5mm  T2w: 0.5mm  dMRI: 0.9mm (MBF=2, iPAT=2)  fMRI:1.25mm (MBF=5)  Spin-echo type B0 Field Map    Marmoset:  T1w: 0.36mm  T2w: 0.36mm  dMRI:0.7-0.8mm (MBF=2, iPAT=2)  fMRI:0.8-1.0mm (MBF=2)  Spin-echo type B0 Field Map"
+41,"T1w, dMRI, MPM, 1.5-2 mm"
+42,N/A
+43,NA
+44,FMRI
+45,T1W and T2W (0.8 mm isotropic)
+46,"T1W  -   0.6 mm iso  T2W  -   0.6 mm iso  DWI	  -   1.0 mm iso  fMRI  -   1.25 mm iso, SENSE factor 2, no multi-band  B0      -   1.25 mm iso"
+47,"T1W, 0.6mm^3  fMRI, 1.6mm^3, TE=0.03, TR=2s, Flip Angle=79 degree, (sequence: ep2d_bold_64_HF)"

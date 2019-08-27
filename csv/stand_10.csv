@@ -36,3 +36,13 @@ record_id,9. What would you like to see as a 'standard' for acquisition sequence
 35,NA
 36,"Investigators should aim for as high-quality, high resolution images as possible, but these depend on the availability of sequences (e.g. multi-band EPI sequence) and multi-array coils used on or with the MRI scanner as is done in HCP-style projects."
 37,N.A.
+38,NA
+39,- standard brain orientation for an easier registration to a common anatomical/ROI map  - same ROI map / standard template with map across labs
+40,"Investigators should aim for as high-quality, high resolution images as possible, but these depend on the availability of sequences (e.g. multi-band EPI sequence) and multi-array coils used on or with the MRI scanner as is done in HCP-style projects."
+41,-
+42,N/A
+43,NA
+44,NA
+45,T1W and T2W for structural MRI (rather than T1W only)
+46,"Not a strong opinion about this, but some level of standardization might definitely be nice."
+47,N/A

@@ -36,3 +36,13 @@ record_id,2. What hacks were required to make these packages work for NHP data?
 35,"> Built in brain mask tools generally fail (e.g. 3dSkullStrip -macaque).  Must replace auto-generated masks with monkey specific masks in various AFNI commands.  >  EPI scans must be kept or rejected based on the quality of monkey's behavior and movement.  > Alternatives:  warp NMT's brain mask to the individual (followed by possible refinement using Atropos) or drawing a manual mask.  > In AFNI, most options and tools that are designated 'subject' need to be interpreted as scan session in the case of NHPs that are scanned more than once,  > In AFNI, afni_proc.py requires some hacks to allow for modeling baseline on a per run basis but motion parameters on a per day basis (using -set_run_lengths) based on how many TRs occur in each session."
 36,"No hacks. We (the Van Essen and Hayashi labs in collaboration) use MRI sequences and pipelines in the NHP HCP protocol (Autio et al., BioRxiv 2019)."
 37,N.A.
+38,"Most hacks involve getting away from standard spaces, adjusting for high resolution data"
+39,"- adaptation in scales in SPM (e.g., smaller smoothing)  - careful manual co-registration and then normalization with home-made slice-by-slice coreg tools, prepared to work with a standard template and ROI map that I derived from the Paxinos atlas.  - I have also used monkey-specific ROI maps, made manually for each monkey and sometimes for each session in the same monkey (because of different distortion across sessions) (Logothetis et al. 2012 Nature). But now with the careful semi-manual normalization to a standard brain and its ROI map, it is not needed anymore."
+40,"No hacks. We use MRI sequences and pipelines in the NHP HCP protocol (Autio et al., BioRxiv 2019)."
+41,"FSL: new implementation for brain extraction (bet), special cleaning for resting-state data (melodic)"
+42,N/A
+43,NA
+44,the datas were fine.
+45,Use a different hrf for fMRI. Nothing special for VBM (besides NHP prior maps and template).
+46,"Writing own pipeline with extensive motion correction for fMRI preprocessing.    Freesurfer: Upscaling NHP brain in header and a lot of manual correction. Using the white matter segmentation to manipulate WM/GM contrast for proper pial surface. All steps are documented (and available) in a Jupyter Notebook.    Segmentation is first done automatically based on the NMT template, then manually adjusted."
+47,"Software packages are designed primarily for human analyses. Details related to brain size/cortical thickness, segmentation (MRF), and smoothing are key to successful adaptation for NHP."

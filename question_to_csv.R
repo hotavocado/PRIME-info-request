@@ -2,7 +2,7 @@
 require(tidyverse)
 
 
-Prime_data <- read_csv("PremeetingRequestFor_DATA_2019-08-20_1544.csv", na = c(""))
+Prime_data <- read_csv(input_path, na = c(""))
 
 
 

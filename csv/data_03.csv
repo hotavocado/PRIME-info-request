@@ -36,3 +36,13 @@ record_id,"3. What are the main problems (preprocessing, analyses) that you run 
 35,"> Skull stripping  > Good segmentation of tissue classes, especially subcortically, in occipital lobe, near insula, etc.  > Generation of surfaces and flat maps for individual NHPs"
 36,Brain extraction and segmentation
 37,N.A.
+38,Preprocessing (when data quality is good) is straight forward in my opinion. One of the main issues with
+39,"Nothing really different from humans, but I guess that the distortion in the functional scans will  be varying across labs/scanners. This is why a VERY careful co reg and then normalization will be KEY to avoid creating false variability. We would need to make SURE also to all have the exact same FOV/slice orientation (or use different orientations and see if it affects connectivity), to facilitate the final normalization. This can be done by using AC-PC or Frankfurt zero plans."
+40,Brain extraction and segmentation
+41,"hidden defaults im conventional pre-processing tools, different data storage conventions/format across groups, agree on reference spaces in volume and surface"
+42,Codes for standard preprocessing steps not published
+43,NA
+44,NA
+45,Automatic brain extraction and tissue segmentation still sub-optimal.
+46,Motion correction. (also body movement artifacts)  Better automated segmentation/surface generation.
+47,Skull stripping for rhesus monkeys is a major issue for automatic routines such as FSL BET and AFNI 3dSkullStrip (which uses BET) because they rely on smoothing. These issues interfere with the quality of surface-based methods and alignment using FLIRT or AFNI/ANTs.

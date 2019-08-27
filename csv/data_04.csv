@@ -36,3 +36,13 @@ record_id,4. Do you rely primarily on volume or surface-based approaches for int
 35,Volume based.   Volume has more information for registering subjects and surface maps are currently hard to generate (but CIVET-macaque will do this) and are prone to errors that would distort surface registration.
 36,Surface-based for the cortex; CIFTI grayordinates for cortical vertices  + subcortical gray matter voxels; CIFTI whiteordinates for white matter voxels. We consider these methods to be substantially more accurate.
 37,N.A.
+38,Volume only. Surface based approaches have some utility in the sensory domain but do not scale well to the analysis non topographically organized cortex. Additionally surface based approaches are not very usable for subcortical structures
+39,"Volume because I care about sub-cortex. It also allows better normalization/registration ... and part of the success of the current effort will be to have optimal inter-subject registration to a standard scan.    In fact, together with George Paxinos and Michael Petrides, we are currently revising the macaque brain atlas for its 4th edition, and we will propose a comprehensive template with cortical and subcortical ROIs, and with a grouping of small ROIs, too. We will also propose a step-by-step protocol to semi-manually coregister individual brains to the template."
+40,Surface-based for the cortex; CIFTI grayordinates for cortex  + subcortical gray matter; CIFTI whiteordinatess for white matter. These methods are more accurate.
+41,Both
+42,N/A
+43,NA
+44,"I rely on volume based, as it provides better knowledge about various network than surface based."
+45,"Volume, as implemented in SPM."
+46,n/a
+47,Volume-based registration. Surface methods are derived from volume which may result in accumulated errors.

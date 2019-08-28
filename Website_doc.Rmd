@@ -1,7 +1,7 @@
 ---
 title: "Primate Data Exchange (PRIME-DE) Request for Information Results"
 author: 
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "Last updated: `r format(Sys.time(), '%d %B, %Y')`"
 output: 
   html_document:
     theme: flatly
@@ -428,6 +428,12 @@ kable(filelist2[['additional']]) %>%
 <center>
 ![additional](wordclouds/additional.jpg)
 </center>
+
+- - -
+ 
+### Download
+
+You can download an Excel spreadsheet with the survey responses [here](https://github.com/hotavocado/PRIME-info-request/blob/master/PRIME_survey_reponses.xlsx).
 
 <br>
 

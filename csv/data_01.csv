@@ -46,3 +46,6 @@ record_id,1. What software package(s) do you use for data analysis?
 45,"SPM, Matlab and R"
 46,"dcm2niix  Nipype with ANTS, AFNI, and FSL components  Freesurfer, ITK-SNAP"
 47,"FreeSurfer, Caret, AFNI, FSL, REST, SPM, ANTs, and code from research papers, custom-written code if none is available."
+48,"FSL, AFNI, MIM with built in extensions, Tortoise, PMOD, Matlab, ImageJ, MIPAV"
+49,"FSL, AFNI, ANTS. C-PAC is currently being expanded to extend reproducible, configurable processing capabilities of the platform to nonhuman literature."
+50,NA

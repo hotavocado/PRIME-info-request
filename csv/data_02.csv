@@ -46,3 +46,6 @@ record_id,2. What hacks were required to make these packages work for NHP data?
 45,Use a different hrf for fMRI. Nothing special for VBM (besides NHP prior maps and template).
 46,"Writing own pipeline with extensive motion correction for fMRI preprocessing.    Freesurfer: Upscaling NHP brain in header and a lot of manual correction. Using the white matter segmentation to manipulate WM/GM contrast for proper pial surface. All steps are documented (and available) in a Jupyter Notebook.    Segmentation is first done automatically based on the NMT template, then manually adjusted."
 47,"Software packages are designed primarily for human analyses. Details related to brain size/cortical thickness, segmentation (MRF), and smoothing are key to successful adaptation for NHP."
+48,1) Need to use NHP based brain template for purpose of spatial normalization.   2) Developed method of brain deskulling based on template brain and non-rigid registration as other deskulling methods designed for human brains did not function properly on NHPs.
+49,attempting different skull stripping strategies
+50,NA

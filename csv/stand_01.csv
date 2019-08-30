@@ -46,3 +46,6 @@ record_id,1. What type of scanner and head coil(s) does your work rely on? Are t
 45,"4.7 T actively shielded vertical MRI scanner (Bruker Biospec 47/60 VAS) equipped with an actively shielded gradient system (Bruker GA-38S) of 38 cm innerbore diameter (Bruker BioSpin, Ettlingen, Germany);  8-channel receiving surface phased-array coil"
 46,Philips Achieva 3T  Custom-built 8-channel head-coil (KU Leuven / MGH design)  Advantage: Coils are mounted on the chair with flexible arms for optimized positioning.  Disadvantage: We need an extensive chain of connections to hook up the coils to the scanner (coils - preamp - adapter plus - research connector unit - scanner) which can make debugging issues difficult.
 47,Siemens Allegra 3T with custom designed coil.
+48,Philips 3T Achieva scanner. Pediatric head/spine coil. Fits well on NHP head.
+49,Tri  custom 8-channel surface coil
+50,NA

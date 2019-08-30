@@ -46,3 +46,6 @@ record_id,"4. If you use anesthesia, what specific type and levels do you use?"
 45,Awake imaging.
 46,"Generally, we scan awake. For 'arrival' or 'localization' scans in non-MRI dedicated animals we use a mixture of Ketamine (0.07 ml/kg, at 100 mg/ml) and Medetomidine (0.1 ml/kg, at 1 mg/ml)"
 47,Isoflurane (0.5-2.0%)
+48,"ketamine, isoflurane"
+49,"Ketamine (induction), Isoflurane"
+50,NA

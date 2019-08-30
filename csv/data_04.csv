@@ -46,3 +46,6 @@ record_id,4. Do you rely primarily on volume or surface-based approaches for int
 45,"Volume, as implemented in SPM."
 46,n/a
 47,Volume-based registration. Surface methods are derived from volume which may result in accumulated errors.
+48,Volume approaches
+49,"Both, depends on the question at hand."
+50,NA

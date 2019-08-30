@@ -46,3 +46,6 @@ record_id,"2. What image sequence types do you obtain in all studies? (e.g., T1W
 45,T1W and T2W (0.8 mm isotropic)
 46,"T1W  -   0.6 mm iso  T2W  -   0.6 mm iso  DWI	  -   1.0 mm iso  fMRI  -   1.25 mm iso, SENSE factor 2, no multi-band  B0      -   1.25 mm iso"
 47,"T1W, 0.6mm^3  fMRI, 1.6mm^3, TE=0.03, TR=2s, Flip Angle=79 degree, (sequence: ep2d_bold_64_HF)"
+48,"T1W, T2W, DWI, DTI, fMRI, SWI, FLAIR w/wo contrast, Fiesta"
+49,"T1W, T2W, dMRI, fMRI, field map  1.5mm"
+50,NA

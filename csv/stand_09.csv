@@ -46,3 +46,6 @@ record_id,8. What do you use for distortion correction and acquisition for Mion 
 45,"NA"
 46,We currently register to an unwarped reference (Bo-based) but also acquire TOPUP scans and fieldmaps with every session.
 47,ANTs N4 B0 distortion correction
+48,N/A
+49,NA
+50,NA

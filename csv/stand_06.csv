@@ -46,3 +46,6 @@ record_id,"6. What protocols are you using to optimize various acquisition param
 45,SNR and CNR
 46,"SNR, tSNR"
 47,Automatic anatomical QA based on contrast between foreground/background/WM/GM/CSF.
+48,Phantom evaluation for T1 mapping
+49,NA
+50,NA

@@ -46,3 +46,6 @@ record_id,9. What would you like to see as a 'standard' for acquisition sequence
 45,T1W and T2W for structural MRI (rather than T1W only)
 46,"Not a strong opinion about this, but some level of standardization might definitely be nice."
 47,N/A
+48,Faster acquisitions that allow multiple sequences acquired during anesthesia
+49,"T1W, T2W, fMRI, dMRI"
+50,NA

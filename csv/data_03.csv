@@ -46,3 +46,6 @@ record_id,"3. What are the main problems (preprocessing, analyses) that you run 
 45,Automatic brain extraction and tissue segmentation still sub-optimal.
 46,Motion correction. (also body movement artifacts)  Better automated segmentation/surface generation.
 47,Skull stripping for rhesus monkeys is a major issue for automatic routines such as FSL BET and AFNI 3dSkullStrip (which uses BET) because they rely on smoothing. These issues interfere with the quality of surface-based methods and alignment using FLIRT or AFNI/ANTs.
+48,"1. Better methods of organ segmentation that work on NHPs which have less fat, etc.  2. Determination of normal baselines for quantitative metrics such as T1 maps, PET SUV values within organs, etc."
+49,skull stripping  registration
+50,NA

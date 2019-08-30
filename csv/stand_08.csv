@@ -46,3 +46,6 @@ record_id,7. What acquisition standards do you feel are required for surface-bas
 45,resolution < 1 mm isotropic
 46,Good GM/WM contrast.
 47,"Isometric voxel size is required for surface based processing, but might be less critical for volume-based processing"
+48,NA
+49,"T1W, T2W"
+50,NA
